@@ -1,0 +1,184 @@
+echo "# SHS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jonathanhansen01/SHS.git
+git push -u origin master
+<!DOCTYPE html>
+<html>
+<title>Silverton Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button w3-hover-orange">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Contacts</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">SHS Page</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScNYgqZxq7CpI4FZ1WX0DwTuZwWUHCg098eXJ1JTim8YvsAUQ/viewform?usp=sf_link" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Test form</a>
+  <a href="https://docs.google.com/forms/d/1Kw92nItG9QCXhypi5CZ8O7E-kN10nLJ6-ACaBfa1GcI/edit" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Art form</a>
+  <a href="https://docs.google.com/forms/d/1awA7NRu9jZV3QqVESt69pnpRezIg69HRlOhmp_PbxRE/edit" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Metal form</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top w3-orange">
+  <div class="w3-orange" style="max-width:1900px;margin:22px;">
+    <div class="w3-button w3-padding-16 w3-left  w3-xlarge w3-xxlarge" onclick="w3_open()">☰</div>
+    <a class="w3-red w3-right w3-padding-16 w3-button w3-hover-black w3-xlarge" href = "https://or-silverfalls.intouchreceipting.com/">DONATE! </a>
+    <b class=" w3-left w3-padding-16 w3-bar-item  w3-xxlarge", style='color: Black'>&nbsp;   SILVERTON </b>
+    <img src="foxlogo.png" class="w3-left w3-padding-8"style="width:4%">
+    <b class=" w3-left w3-padding-16 w3-bar-item  w3-xxlarge", style='color:white'>  CTE</b>
+    <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-xlarge w3-right w3-bar-item w3-button w3-hover-black w3-padding-16">Metal Works</a>
+    <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-xlarge w3-right  w3-bar-item w3-button w3-hover-black w3-padding-16">Art Department</a>
+    <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-xlarge w3-right w3-bar-item w3-button w3-hover-black w3-padding-16">Digital Media</a>
+    <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class=" w3-xlarge w3-right w3-bar-item w3-button w3-hover-black w3-padding-16">Fox Shop</a>
+
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+ <b class=" w3-xxlarge w3-left"  style= "margin-left:580px; color:darkorange;" z-index=2>Welcome to Silverton Highschool's CTE Page!</b>
+<div class="w3-main w3-content" style="padding-bottom:00px;margin-top:150px;margin-left:150px;margin-bottom:100px;">
+  <!-- First Photo Grid-->
+      <img src="water.jpg" class="w3-animate-fading mySlides  w3-hover-grey " id="images" height="643" width="1643" z-index=1>
+      <img src="bridge.jpg"class="w3-animate-fading mySlides  w3-hover-grey " id="images" height="643" width="1643" >
+      <img src="cliff.jpg" class="w3-animate-fading mySlides  w3-hover-grey " id="images" height="643" width="1643" >
+
+    </div>
+  </div>
+<b class=" w3-xxlarge w3-left " style="margin-left:580px; color:darkorange;" >These are some other images, LOOK AT THEM!</b>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-top-25% w3-center" >
+    <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-button w3-quarter w3-hover-orange">
+      <img src="pikachu.jpg"  style="width:100%"  >
+      <h3>Metal Works</h3>
+      <p>One of SHS's more indepth CTE programs, LEARN MORE!</p>
+
+    </a>
+    <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-button w3-quarter w3-hover-orange">
+      <img src="code.jpg"  style="width:100%">
+      <h3>Art Department</h3>
+      <p>Diving into SHS's more right minded students, LEARN MORE! </p>
+
+    </a>
+    <a class="w3-quarter w3-hover-orange w3-button" href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html">
+      <img src="r.jpg"  style="width:100%">
+      <h3>Culinary</h3>
+      <p>Mmm...SHS Culinary program, LEARN MORE!</p>
+
+    </a>
+    <a class="w3-quarter w3-hover-orange w3-button" href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html">
+      <img src="wire.jpg"  style="width:100%">
+      <h3>SHS Fox Shop</h3>
+      <p>Check Out some SHS gear! LEARN MORE!</p>
+
+    </a>
+  </div>
+
+  <!-- Page counter thingy-->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="file:///C:/Users/student/Documents/5th%20Period/website_secondpage.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>About us, Special Projects</h3><br>
+    <img src="student.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>We Code!</b></h4>
+      <h6><i>Like with Mr.Rankin and stuff</i></h6>
+      <p>just six of us doing our thing, makin websites and stuff, helping the school out cause were nice people I guess, but i mean I think we should get paid for this but oh Well XD</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Thank you!</h3>
+      <p>I hope you had the opportunity to purchase something from out amazing students, if you would like to donate to help out our programs, <a href ="https://silvertonhigh.silverfallsschools.org"> CLICK HERE!</a></p>
+
+      <p>Powered by Silverton Highschools Special projects/adv. programming students.</p>
+    </div>
+
+    <div class="w3-third">
+      <h3>Fun Facts</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="fox_logo.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">DID YOU KNOW</span><br>
+          <span>Over 90% of SHS students graduate on time! that over 10% more than the state average</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="fox_logo.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">SHS is one of...</span><br>
+          <span>the 33% (of highschools) that offers Computer science related courses!</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Special Projects</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Coding</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">CTE</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Donate</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">silverton</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Foxes</span>
+
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 9000);
+}
+</script>
+
+
+
+</body>
+</html>
